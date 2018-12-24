@@ -1,0 +1,17 @@
+[package]
+name = "home-rpc"
+version = "0.1.0"
+authors = ["Joshua Coles <josh@coles.to>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+
+rocket = "0.4.0"
+
+[dependencies.rocket_contrib]
+version = "0.4.0"
+default-features = false
+features = ["json"]

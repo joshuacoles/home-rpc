@@ -1,0 +1,5 @@
+[development]
+scripts_dir = "./scripts/"
+
+[production]
+scripts_dir = "/scripts/"
